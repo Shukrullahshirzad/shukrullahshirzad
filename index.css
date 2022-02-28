@@ -1,0 +1,158 @@
+:root{
+  /*------- colors --------*/
+
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+
+  /* -------fonts ----------*/
+  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+}
+
+/* ------globals--------- */
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+
+}
+a{
+  text-decoration: none;
+}
+.nav-links li{
+  list-style-type: none;
+
+}
+/* -----utility classes------ */
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* ------header section-------- */
+.header{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: transparent;
+  transition: 0.5s;
+  
+}
+.header.sticky{
+  background-color: var(--bs-light);
+  padding: 15px 100px;
+}
+.header .logo{
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+.header .nav-links{
+  
+}
+.header .nav-links.show{
+  right: 0;
+}
+.header .nav-links li{
+  margin: 20px;
+}
+.header .nav-links a{
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: var(--bs-dark);
+  transition: 0.3s;
+  transition-property: color, background;
+}
+.header .nav-links a:hover{
+  color: var(--bs-dark); 
+  
+}
+.header .nav-btn {
+  display: none;
+}
+.nav-close{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 30px;
+}
+/* ------end of header------- */
+
+/* hero section */
+.hero{
+  background-color:var(--bs-yellow);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+/* hero section end */
+
+/* skills section  */
+.skills{
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 990px) {
+  .nav-links{
+  position:fixed;
+  background: var(--bs-dark);
+  flex-direction: column;
+  min-width: 60vw;
+  height: 100vh;
+  top: 0;
+  right: -100%;
+  padding: 80px 50px;
+  transition: 0.4s;
+  }
+  .header .nav-links li{
+    margin-bottom: 20px;
+  }
+  .header .nav-btn {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+  }
+}
