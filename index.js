@@ -13,4 +13,6 @@ openBtn.addEventListener('click',(e)=>{
 });
 closeBtn.addEventListener('click',(e)=>{
     nav.classList.remove('show')
-})
+});
+// site file
+
