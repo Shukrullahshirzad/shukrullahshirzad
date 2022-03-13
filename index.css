@@ -83,10 +83,6 @@ img{
   margin-top: -9px;
 }
 .section-title h2{
-  position: absolute;
-  top: -20%;
-  left: 0;
-  right: 0;
   margin: 0 auto;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -179,7 +175,7 @@ img{
 /* hero section */
 .hero{
   background-color:var(--bs-yellow);
-  height: 100vh;
+  min-height: 100vh;
   padding: 50px;
   display: flex;
   justify-content: space-around;
@@ -507,8 +503,12 @@ textarea.form-control {
   background-color: #fff;
   color: #000;
 }
-
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1199px) {
+  .back-text{
+    top: -54px;
+  }
+}
+@media screen and (max-width: 992px) {
   .nav-links{
   position:fixed;
   background: var(--bs-dark);
@@ -538,4 +538,24 @@ textarea.form-control {
   .header .nav-links li a{
     color: #fff;
   }
+  .back-text{
+    top: -38px;
+  }
 }
+/* media queries  */    
+@media only screen and (max-width: 767px) {
+  .back-text{
+    top: -20px;
+  }
+}
+@media screen and (max-width:680px) {
+  .hero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 0;
+  }
+  .hero-text{
+    width: 90%;
+  }
+}    
