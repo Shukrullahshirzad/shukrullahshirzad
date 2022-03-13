@@ -43,6 +43,7 @@ body{
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
   background-color: var(--bs-yellow);
+  overflow-x: hidden;
 }
 section{
   margin-bottom: 100px;
@@ -79,7 +80,6 @@ img{
   position: relative;
   z-index: 1;
   padding-bottom: 105px;
-  /* margin-bottom: 30px; */
   margin-top: -9px;
 }
 .section-title h2{
@@ -518,6 +518,7 @@ textarea.form-control {
   top: 0;
   right: -100%;
   padding: 80px 50px;
+  overflow: hidden;
   transition: 0.4s;
   }
   .header .nav-links li{
