@@ -79,7 +79,7 @@ img{
   text-align: center;
   position: relative;
   z-index: 1;
-  padding-bottom: 105px;
+  padding-bottom: 50px;
   margin-top: -9px;
 }
 .section-title h2{
@@ -231,7 +231,7 @@ img{
   max-width: 80%;
   display: grid;
   margin: auto;
-  grid-template-columns:repeat(auto-fit,minmax(320px, 1fr));
+  grid-template-columns:repeat(auto-fit,minmax(300px, 1fr));
   position: relative;
   gap: 20px;
 
@@ -306,14 +306,12 @@ img{
   z-index: 2;
 }
 /* about section */
-.about-area .container{
+.about .container{
   width: 90%;
   margin: auto;
-}
-.display-grid{
   display: grid;
-  gap: 20px;
   grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 .about-image-sec{
   grid-column: 1/2;
@@ -394,19 +392,19 @@ img{
   border-radius: 30px;
 }
 /* Testimonials section */
-.testimonial-area{
+.testimonial{
   min-height: 120vh;
   background-color: #000000;
   position: relative;
   padding-bottom: 90px;
 }
-.testimonial-area .section-title .back-text {
+.testimonial .section-title .back-text {
   opacity: .06;
   color: #ffffff;
   margin-top: 50px;
   padding-top: 90px;
 }
-.testimonial-area .section-title h2 {
+.testimonial .section-title h2 {
   color: #ffffff;
   position: absolute;
   top: 50%;
@@ -417,14 +415,14 @@ img{
 .testimonial-list{
   margin-top: 200px;
 }
-.testimonial-area p{
+.testimonial-content{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.testimonial p{
   color: #ffffff;
   font-size: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 100px;
 }
 /* contact section  */
 .contact-info{
@@ -542,6 +540,13 @@ textarea.form-control {
   .back-text{
     top: -38px;
   }
+  .about .container{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
 }
 /* media queries  */    
 @media only screen and (max-width: 767px) {
