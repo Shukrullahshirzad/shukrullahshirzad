@@ -189,12 +189,12 @@ li{
 .hero-text{
   display: flex;
   flex-direction: column;
-  width: 50%;
   font-size: 30px;
+  flex: 1 1 10em;
   text-align: center;
 }
 .hero-img-container{
-  /* width: 50%; */
+  width: 50%;
   position: relative;
 }
 .hero-img{
@@ -208,15 +208,16 @@ li{
   bottom: -5px;
   left: 0%;
   border: 7px solid #eeeeee;
-  border-radius: 50%;
-  width: 200px;
-  height: 60%;
+  border-radius: 0;
+  width: 102%;
+  height: 70%;
   z-index: -1;
 }
 
 .hero-img img{
-  border-radius: 40%;
+  border-radius: 0;
   margin: auto;
+  width: 100%;
   max-width: 100%;
 }
 
