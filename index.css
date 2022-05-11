@@ -267,8 +267,13 @@ li{
 .shorting-menu {
   text-align: center;
   margin-bottom: 20px;
-  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  transition: 200ms;
 }
+
 .shorting-menu .filter {
   border: 1px solid #000000;
   background: transparent;
@@ -279,6 +284,11 @@ li{
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: 0;
+  cursor: pointer;
+}
+.shorting-menu .filter:hover{
+  background-color: #000000;
+  color: #ffffff;
 }
 .portfolio-container{
   padding: 70px 0px;
