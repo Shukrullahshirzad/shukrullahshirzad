@@ -190,7 +190,7 @@ li{
   display: flex;
   flex-direction: column;
   font-size: 30px;
-  flex: 1 1 10em;
+  flex: 1;
   text-align: center;
 }
 .hero-img-container{
@@ -582,8 +582,6 @@ textarea.form-control {
   overflow: hidden;
   gap: 30px;
 }
-
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -614,7 +612,7 @@ textarea.form-control {
   }
   .header.sticky {
     padding: 0px 30px;
-}
+  }
   .hero{
     display: flex;
     flex-direction: column;
@@ -624,6 +622,17 @@ textarea.form-control {
   }
   .hero-text{
     width: 90%;
+  }
+  .hero-img-container{
+    width: 100%;
+  }
+  #contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
   }
   .services .container{
     max-width: 90%;
