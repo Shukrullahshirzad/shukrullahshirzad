@@ -522,6 +522,18 @@ textarea.form-control {
   display: flex;
   margin-top: 20px;
 }
+.footer {
+  background-color: #000000;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Media queries */
 
 @media screen and (max-width: 1199px) {
   .back-text{
@@ -573,7 +585,7 @@ textarea.form-control {
 
 
 }
-/* media queries  */    
+
 @media only screen and (max-width: 767px) {
   .back-text{
     top: -20px;

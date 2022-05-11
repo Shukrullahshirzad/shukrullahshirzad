@@ -15,4 +15,7 @@ closeBtn.addEventListener('click',(e)=>{
     nav.classList.remove('show')
 });
 
+//code for project's filter
+
+
 
