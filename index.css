@@ -270,6 +270,7 @@ li{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  grid-column: 1/-1;
   gap: 5px;
   transition: 200ms;
 }

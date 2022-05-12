@@ -17,5 +17,7 @@ closeBtn.addEventListener('click',(e)=>{
 
 //code for project's filter
 
-
-
+let all = document.querySelectorAll('.filter');
+forEach(element => {
+    console.log(element)
+});
