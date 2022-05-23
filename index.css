@@ -110,6 +110,13 @@ li{
   gap: 30px;
   flex-wrap: wrap;
 }
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+
 
 /* ------header section-------- */
 .header{
@@ -291,12 +298,24 @@ li{
   background-color: #000000;
   color: #ffffff;
 }
+.filter.active{
+  background-color:#000;
+  color: #ffffff;
+}
 .portfolio-container{
   padding: 70px 0px;
   max-width: 80%;
   display: grid;
   margin: auto;
-  grid-template-columns:repeat(auto-fit,minmax(300px, 1fr));
+  position: relative;
+  gap: 20px;
+}
+.portfolio-container .items{
+  padding: 70px 0px;
+  max-width: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-columns:repeat(auto-fit,minmax(250px, 1fr));
   position: relative;
   gap: 20px;
 }

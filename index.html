@@ -7,17 +7,16 @@
   <link rel="stylesheet" href="index.css">
 
   <!-- website theme -->
-
   <meta name="theme-color" content="#00e400">
 
   <!--=-------- font awesome link --------->
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
   <!-- logo font  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -99,56 +98,58 @@
           <button class="filter active" data-filter="all"><i class="flaticon-setup"></i> All</button>
           <button class="filter" data-filter="html">HTML-CSS</button>
           <button class="filter" data-filter="js">JS</button>
-          <button class="filter" data-filter="js">WordPress</button>
+          <button class="filter" data-filter="wp">WordPress</button>
       </div>
-      <div class="single-portfolio-box html-css">
-      <img src="./imgs/NFT card.jpg" alt="image">
-        <div class="portfolio-content">
-            <h3><a href="https://shukrullahshirzad.github.io/NFT-card/" target="_blank">NFT card</a></h3>
-            <span>HTML-CSS</span>
-        </div>
-      <a href="https://shukrullahshirzad.github.io/NFT-card/" class="popup-btn"></a>
-      </div> 
-      <div class="single-portfolio-box html-css">
-        <img src="./imgs/3-column.jpg" alt="image">
-          <div class="portfolio-content">
-              <h3><a href="#">3 column </a></h3>
-              <span>HTML-CSS</span>
-          </div>
-        <a href="assets/img/3-column.jpg" class="popup-btn"></a>
-      </div> 
-      <div class="single-portfolio-box html-css">
-        <img src="./imgs/Testimonials grid section.jpg" alt="image">
-          <div class="portfolio-content">
-              <h3><a href="https://shukrullahshirzad.github.io/Testimonials-grid-section-challenge-hub/">Testimonial grid section</a></h3>
-              <span>HTML-CSS</span>
-          </div>
-        <a href="https://shukrullahshirzad.github.io/Testimonials-grid-section-challenge-hub/" class="popup-btn"></a>
-      </div> 
-      <div class="single-portfolio-box js">
-        <img src="./imgs/Particle-and-Node-Canvas.webp" alt="image">
-          <div class="portfolio-content">
-              <h3><a href="#">Moving Particles</a></h3>
-              <span>JS</span>
-          </div>
-        <a href="https://shukrullahshirzad.github.io/CanvasProjects/" class="popup-btn"></a>
-      </div> 
-      <div class="single-portfolio-box ">
-        <img src="./imgs/NFT card.jpg" alt="image">
-          <div class="portfolio-content">
-              <h3><a href="#">The Headphone</a></h3>
-              <span>Design</span>
-          </div>
-        <a href="assets/img/portfolio-img1.jpg" class="popup-btn"></a>
-      </div> 
-      <div class="single-portfolio-box ">
-      <img src="./imgs/NFT card.jpg" alt="image">
-        <div class="portfolio-content">
-            <h3><a href="#">The Headphone</a></h3>
-            <span>Design</span>
-        </div>
-      <a href="assets/img/portfolio-img1.jpg" class="popup-btn"></a>
-    </div>       
+      <div class="items">
+        <div data-item="html" class="single-portfolio-box">
+          <img src="./imgs/NFT card.jpg" alt="image">
+            <div class="portfolio-content">
+                <h3><a href="https://shukrullahshirzad.github.io/NFT-card/" target="_blank">NFT card</a></h3>
+                <span>HTML-CSS</span>
+            </div>
+          <a href="https://shukrullahshirzad.github.io/NFT-card/" class="popup-btn"></a>
+          </div> 
+          <div data-item="html" class="single-portfolio-box">
+            <img src="./imgs/3-column.jpg" alt="image">
+              <div class="portfolio-content">
+                  <h3><a href="#">3 column </a></h3>
+                  <span>HTML-CSS</span>
+              </div>
+            <a href="assets/img/3-column.jpg" class="popup-btn"></a>
+          </div> 
+          <div data-item="html" class="single-portfolio-box">
+            <img src="./imgs/Testimonials grid section.jpg" alt="image">
+              <div class="portfolio-content">
+                  <h3><a href="https://shukrullahshirzad.github.io/Testimonials-grid-section-challenge-hub/">Testimonial grid section</a></h3>
+                  <span>HTML-CSS</span>
+              </div>
+            <a href="https://shukrullahshirzad.github.io/Testimonials-grid-section-challenge-hub/" class="popup-btn"></a>
+          </div> 
+          <div data-item="js" class="single-portfolio-box">
+            <img src="./imgs/Particle-and-Node-Canvas.webp" alt="image">
+              <div class="portfolio-content">
+                  <h3><a href="#">Moving Particles</a></h3>
+                  <span>JS</span>
+              </div>
+            <a href="https://shukrullahshirzad.github.io/CanvasProjects/" class="popup-btn"></a>
+          </div> 
+          <div data-item="wp" class="single-portfolio-box">
+            <img src="./imgs/NFT card.jpg" alt="image">
+              <div class="portfolio-content">
+                  <h3><a href="#">The Headphone</a></h3>
+                  <span>Design</span>
+              </div>
+            <a href="assets/img/portfolio-img1.jpg" class="popup-btn"></a>
+          </div> 
+          <div data-item="wp" class="single-portfolio-box">
+          <img src="./imgs/NFT card.jpg" alt="image">
+            <div class="portfolio-content">
+                <h3><a href="#">The Headphone</a></h3>
+                <span>Design</span>
+            </div>
+          <a href="assets/img/portfolio-img1.jpg" class="popup-btn"></a>
+        </div> 
+      </div>      
   </div>
       
     
