@@ -22,7 +22,7 @@
 
 ### 💬 Ask Me About
 - **Frontend:** HTML, CSS, Bootstrap, JavaScript  
-- **Backend:** Python (Flask), Node.js  
+- **Backend:** Python (Flask), Node.js, Java (Spring) 
 - **Other Tools:** Postman, Selenium  
 
 ### 📫 How to reach me
