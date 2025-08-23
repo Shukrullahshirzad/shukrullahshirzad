@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shukrullah Shirzad</h1>
-<h3 align="center">💻 A Passionate Frontend Developer from Afghanistan</h3>
+<h3 align="center">💻 A Passionate Fullstack Developer</h3>
 
 <p align="center">
   <a href="https://twitter.com/cooolcoder" target="blank">
