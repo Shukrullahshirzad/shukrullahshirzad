@@ -1,9 +1,7 @@
-import React from 'react'
-import './Testimonials.scss'
+import React from "react";
+import "./Testimonials.scss";
 function Testimonials() {
-  
-    <div>Testimonails</div>
-  
+  return <div>Testimonials</div>;
 }
-import './Testimonials.scss'
-export default Testimonials
+
+export default Testimonials;

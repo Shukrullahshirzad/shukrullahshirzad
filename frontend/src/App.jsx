@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import { About, Footer, Header, Skills, Testimonials, Work } from './container';
-import { Navbar } from './components';
+import { useState } from "react";
+import { About, Footer, Header, Skills, Testimonials, Work } from "./container";
+import { Navbar } from "./components";
+import "./App.scss";
+
 function App() {
-
-
   return (
-    <div className='app'>
+    <div className="app">
       <Navbar />
       <Header />
       <About />
@@ -13,9 +13,8 @@ function App() {
       <Skills />
       <Testimonials />
       <Footer />
-
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
