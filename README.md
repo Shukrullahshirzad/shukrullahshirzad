@@ -1,54 +1,44 @@
-<h1 align="center">Hi 👋, I'm Shukrullah Shirzad</h1>
-<h3 align="center">💻 A Passionate Fullstack Developer</h3>
+# Shukrullah Shirzad Portfolio Website
 
-<p align="center">
-  <a href="https://twitter.com/cooolcoder" target="blank">
-    <img src="https://img.shields.io/twitter/follow/cooolcoder?logo=twitter&style=for-the-badge" alt="Twitter Follow"/>
-  </a>
-  <a href="https://github.com/Shukrullahshirzad" target="blank">
-    <img src="https://img.shields.io/github/followers/Shukrullahshirzad?logo=github&style=for-the-badge" alt="GitHub Followers"/>
-  </a>
-</p>
+This is my personal portfolio website, rebuilt and upgraded from my previous vanilla JavaScript version to use **React** and **Vite** for a modern, fast, and maintainable experience.
 
----
+## About This Project
 
-### 🌱 Currently Learning
-- React ⚛️  
-- Node.js 🚀  
-- Playwright 🎭  
+This site showcases my work, skills, and projects as a developer and creative professional. The upgrade to React brings improved performance, component-based architecture, and easier maintenance. Vite is used for lightning-fast development and build tooling.
 
-### 👨‍💻 My Projects
-📂 All of my projects are available on **[GitHub](https://github.com/Shukrullahshirzad)**  
+### Key Features
 
-### 💬 Ask Me About
-- **Frontend:** HTML, CSS, Bootstrap, JavaScript  
-- **Backend:** Python (Flask), Node.js, Java (Spring) 
-- **Other Tools:** Postman, Selenium  
+- Modern React (with functional components and hooks)
+- Fast development and hot module replacement with Vite
+- Responsive design and clean UI
+- Modular, maintainable codebase
+- Upgraded from a vanilla JavaScript implementation
 
-### 📫 How to reach me
-📧 **shukrullah.shirzad.779@gmail.com**
+## Getting Started
 
----
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
 
-<h3 align="center">🌐 Connect with me:</h3>
-<p align="center">
-  <a href="https://twitter.com/cooolcoder" target="blank">
-    <img src="https://img.icons8.com/color/48/000000/twitter--v1.png" width="40"/>
-  </a>
-  <a href="https://www.linkedin.com/in/shukrullah-shirzad-7271a4123/" target="blank">
-    <img src="https://img.icons8.com/color/48/000000/linkedin.png" width="40"/>
-  </a>
-</p>
+## Folder Structure
 
----
+- `src/` — React components, styles, and assets
+- `public/` — Static files
+- `index.html` — Main HTML file
 
-<h3 align="center">📊 GitHub Stats</h3>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Shukrullahshirzad&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shukrullahshirzad" alt="GitHub Streak" />
-</p>
+## Previous Version
+
+This project is an upgrade of my old portfolio website, which was built with vanilla JavaScript, HTML, and CSS. The new version leverages the power of React for a better developer and user experience.
 
 ---
 
+Feel free to explore the code, and check out my portfolio at [your live site URL here].
