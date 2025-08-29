@@ -4,7 +4,8 @@
 
 ### Connect with me:
 
-[![cooolcoder](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg)](https://twitter.com/cooolcoder) [![shukrullahshirzad](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg)](https://linkedin.com/in/shukrullahshirzad)
+<a href="https://twitter.com/cooolcoder"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="40" width="40"/></a>
+<a href="https://linkedin.com/in/shukrullahshirzad"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="40" width="40"/></a>
 
 ### Languages and Tools:
 
