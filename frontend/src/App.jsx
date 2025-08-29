@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { About, Footer, Header, Skills, Testimonials, Work } from "./container";
-import { Navbar } from "./components";
+import Navbar from "./components/Navbar/Navbar";
 import "./App.scss";
+import { images } from "./constants";
 
 function App() {
   return (

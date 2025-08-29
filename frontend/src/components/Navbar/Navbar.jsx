@@ -1,13 +1,24 @@
-import React from 'react'
-
-function Navbar () {
+import React from "react";
+import { images } from "../../constants";
+import './Navbar.scss'
+function Navbar() {
   return (
-    <nav>
-      <div>
+    <nav className="app__navbar">
+      <div className="app__navbar-logo">
         <img src={images.logo} alt="logo" />
       </div>
+      <ul className="app__navbar-links">
+        {["Home", "about", "contact", "work", "skills", "contact"].map(
+          (item) => (
+            <li key={`link-${item}`} className="app__flex p-text">
+              <div />
+              <a href={`#${item}`}>{item}</a>
+            </li>
+          )
+        )}
+      </ul>
     </nav>
-  )
+  );
 }
 
-export default Navbar 
+export default Navbar;
