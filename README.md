@@ -1,15 +1,46 @@
-<h1 align="center">Hi 👋, I'm Shukrullah Shirzad</h1>
-<h3 align="center">A passionate full-stack developer</h3>
+# Welcome
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/cooolcoder" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="cooolcoder" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/shukrullahshirzad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shukrullahshirzad" height="30" width="40" /></a>
-</p>
+https://www.sanity.io/learn/course/day-one-with-sanity-studio/prerequisites.md
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+In this course you'll make first contact with most parts of the Sanity Content Operating System while building out a best-practice, multi-application monorepo.
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shukrullahshirzad&show_icons=true&locale=en" alt="shukrullahshirzad" /></p>
+## About you
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shukrullahshirzad&" alt="shukrullahshirzad" /></p>
+The lessons in this course are written at a level that assumes you have some experience in web application development. As such, it rapidly and lightly touches almost every part of the Sanity Content Operating System. 
+
+### About me
+
+My name is Simeon Griggs, and I've been building content-editable applications for almost my entire career. I'm enthusiastic about the vast array of options that Sanity gives developers to create content-editable applications. 
+
+Through these courses, I hope to inspire you to see what's possible so that you will go above and beyond default settings and cookie-cutter CMSes for your next build and to the benefit of content creators.
+
+## Alternative learning paths
+
+This track, , covers the entire Sanity Content Operating System with the end goal of preparing you for the **Sanity Certified Content Operator** exam—which unlocks upon completion of all courses in this track.
+
+* If you'd prefer to work frontend-first with a **focus on websites**, consider the  track.
+* If you're looking for **AI-specific** guidance take the [AI-powered Sanity development](https://www.sanity.io/learn/course/code-with-ai) course.
+* If you're in a **hurry**—or Next.js isn't your favorite—see [Getting started with Sanity](https://www.sanity.io/learn/getting-started) for other framework specific guides which are optimized to get you going in no time.
+* If you're feeling **confident**, see the [Templates](https://www.sanity.io/templates) page for a variety of framework-specific templates ranging from clean to fully-featured.
+
+## What you'll need
+
+To complete this course, you will need the following:
+
+* A free Sanity account to create new Sanity projects. If you do not yet have an account, you'll be prompted to create one from the terminal.
+* Some familiarity with running commands from the terminal. Wes Bos' [Command Line Power User](https://commandlinepoweruser.com/) video course is free and can get you up to speed with the basics.
+* [Node (version 20 or greater)](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed (or [an npm-compatible JavaScript runtime](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Package_management#what_exactly_is_a_package_manager)) to install and run Sanity tools locally.
+* Some familiarity with JavaScript. The code examples in this course can all be copied and pasted and are written in TypeScript, but you will not need advanced knowledge of TypeScript.
+
+1. See [Installation](https://www.sanity.io/learn/studio/installation) in the documentation for more options when starting new Sanity projects
+
+Be aware of some opinionated tooling decisions made in this track of courses:
+
+* We prefer you use [PNPM over NPM](https://pnpm.io/) as you will be configuring a PNPM workspace in this track. This will make it simpler to develop multiple separate but related applications.
+* In videos we use [VS Code](https://code.visualstudio.com/) or [Cursor](https://www.cursor.com/) as our IDE with the [Sanity VS Code extension](https://github.com/sanity-io/vscode-sanity) installed for syntax highlighting of GROQ queries.
+
+## Feedback? Questions?
+
+If you're stuck or have feedback [join the Sanity Community](https://www.sanity.io/community/join?utm_source=learn-day-one) or use the Feedback form at the bottom of every lesson.
+
+Let's get started!
