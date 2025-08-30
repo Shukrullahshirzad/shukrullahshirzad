@@ -17,6 +17,8 @@ import redux from "../assets/Icons/redux.png";
 import sass from "../assets/Icons/sass.png";
 import typescript from "../assets/Icons/typescript.png";
 import vue from "../assets/Icons/vue.png";
+import me4 from "../assets/Icons/me4.png";
+import shirzad from "../assets/Icons/shirzad.png";
 
 import about01 from "../assets/Icons/about01.png";
 import about02 from "../assets/Icons/about02.png";
@@ -25,7 +27,7 @@ import about04 from "../assets/Icons/about04.png";
 
 import profile from "../assets/Icons/profile.png";
 import circle from "../assets/Icons/circle.svg";
-import logo from "../assets/Icons/logo.png";
+import logo from "../assets/Icons/logo.svg";
 
 import adidas from "../assets/Icons/adidas.png";
 import amazon from "../assets/Icons/amazon.png";
@@ -55,6 +57,8 @@ export default {
   sass,
   typescript,
   vue,
+  me4,
+  shirzad,
   about01,
   about02,
   about03,
