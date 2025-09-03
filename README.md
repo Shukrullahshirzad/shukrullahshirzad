@@ -1,6 +1,6 @@
 # Hi 👋, I'm Shukrullah Shirzad
 
-### A passionate full-stack developer
+### A passionate full-stack Web developer
 
 ### Connect with me:
 
